@@ -1,0 +1,5 @@
+.title{ font-size:22px; margin-bottom:12px }
+.form{ display:flex; gap:8px; margin-bottom:14px }
+.input{ flex:1;padding:10px;border-radius:8px;border:1px solid rgba(0,212,255,
+0.06); background:rgba(255,255,255,0.01); color:inherit }
+.btn{ padding:10px 14px;border-radius:8px;background:lineargradient(90deg,var(--neon), #00a6d6); border:none; color:#001; font-weight:700 }

@@ -1,0 +1,22 @@
+.header{
+background: linear-gradient(90deg, rgba(0,212,255,0.04), rgba(0,80,120,0.02));
+padding:12px 0;
+border-bottom:1px solid rgba(0,212,255,0.06);
+}
+
+
+.nav{
+display:flex;gap:18px;align-items:center;max-width:1100px;margin:0 auto;padding:0 16px;
+}
+
+
+.nav a{
+padding:8px 12px;border-radius:8px;font-weight:600;color:var(--muted);
+transition:all .18s ease;
+}
+
+
+.nav a:hover{ color:var(--neon); transform:translateY(-2px); text-shadow:0 0 12px rgba(0,212,255,0.12); }
+
+
+.active{ color:var(--neon); box-shadow:0 0 20px rgba(0,212,255,0.06) inset; }

@@ -1,0 +1,38 @@
+/* global.css - temel arkaplan ve font ayarları */
+:root{
+--bg: #030617;
+--panel: rgba(10,18,35,0.6);
+--neon: #00d4ff; /* neon blue */
+--muted: #9aa7b2;
+}
+
+
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+background: radial-gradient(ellipse at 20% 10%, rgba(0,212,255,0.06), transparent),
+linear-gradient(180deg, #001024 0%, #030617 100%);
+color: #e6f6ff;
+min-height:100vh;
+}
+
+
+a{color:var(--neon);text-decoration:none}
+img{max-width:100%;display:block}
+.container{max-width:1100px;margin:24px auto;padding:16px}
+
+
+/* neon glow utility */
+.neon {
+color: var(--neon);
+text-shadow: 0 0 6px rgba(0,212,255,0.12), 0 0 18px rgba(0,212,255,0.08);
+}
+
+
+.card {
+background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+border: 1px solid rgba(0,212,255,0.08);
+border-radius:12px;
+padding:16px;
+}

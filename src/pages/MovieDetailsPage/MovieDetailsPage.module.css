@@ -1,0 +1,11 @@
+.back{ display:inline-block;margin-bottom:12px;color:var(--muted) }
+.top{ display:flex; gap:18px; align-items:flex-start }
+.poster{ width:260px; border-radius:10px; border:1px solid rgba(0,212,255,
+0.04) }
+.meta{ flex:1 }
+.title{ font-size:22px; margin:0 }
+.subtitle{ color:var(--muted); margin:8px 0 }
+.overview{ margin:12px 0; color:#d8f8ff }
+.links{ display:flex; gap:12px; margin-top:12px }
+.tab{ padding:8px 12px; border-radius:8px;border:1px solid rgba(0,212,255,
+0.04); background:rgba(255,255,255,0.01) }
